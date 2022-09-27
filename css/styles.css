@@ -15,17 +15,19 @@ body{
     color: rgb(201, 148, 64);
 }
 
-#info-home{
+.info{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-#info-logo>.float-start{
-    width: 100%;
-    height: auto;
+.info-logo>.float-start{
+    height: 40vh;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-#info-texto{
+.info-texto{
     text-align: center;
 }
 
