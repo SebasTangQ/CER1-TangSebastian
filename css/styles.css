@@ -15,21 +15,21 @@ body{
     color: rgb(201, 148, 64);
 }
 
-#informacionHome{
+#info-home{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-#informacion-logo>.float-start{
+#info-logo>.float-start{
     width: 100%;
     height: auto;
 }
 
-#informacion-texto{
+#info-texto{
     text-align: center;
 }
 
-#carouselHome{
+#carousel-home{
     width: 70%;
     height: auto;
     margin: auto;
