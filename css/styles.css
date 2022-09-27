@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+
+.html {
+    color: rgb(185, 79, 38);
+}
+
+.css {
+    color: rgb(0, 79, 132);
+}
+
+.js {
+    color: rgb(201, 148, 64);
+}
+
+#informacionHome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#informacion-logo>.float-start{
+    width: 100%;
+    height: auto;
+}
+
+#informacion-texto{
+    text-align: center;
+}
+
+#carouselHome{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
