@@ -20,19 +20,25 @@ body{
     margin-bottom: 50px;
 }
 
-.info-logo>.float-start{
-    height: 40vh;
-    width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+.info-logo img{
+    width:300px;
+    margin: auto;
+    display:block;
+    margin: 0 auto;
 }
 
 .info-texto{
-    text-align: center;
+    text-align: left;
 }
 
-#carousel-home{
-    width: 70%;
+.carousel{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
+
+.accordion{
+    width: 80vw;
     height: auto;
     margin: auto;
 }

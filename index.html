@@ -20,7 +20,7 @@
             <div class="container text-center info">
                 <div class="row align-items-center">
                     <div class="col info-logo">
-                        <img src="img/informacion_logo.png" class="float-start" alt="logo">
+                        <img src="img/informacion_logo.png" class="img-fluid" alt="logo">
                     </div>
                     <div class="col info-texto">
                         <h1>WebSite</h1>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div id="carousel-home" class="container">
-                <h1 class="display-3 text-center">Elementos Basicos</h1>
+                <h1 class="display-5 text-center">Elementos Basicos</h1>
                 <div id="carouselElements" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -66,15 +66,16 @@
             <div class="container text-center info">
                 <div class="row align-items-center html">
                     <div class="col info-logo">
-                        <img src="img/html_file.png" class="float-start" alt="logo">
+                        <img src="img/html_file.png" class="img-fluid" alt="logo">
                     </div>
                     <div class="col info-texto">
                         <h1>HTML</h1>
-                        <p class="lead">Para darle estructura a tu pagina</p>
+                        <p class="lead">Para darle estructura a tu pagina web</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-html" class="container">
+                <h1 class="display-5 text-center">Informacion Inicial</h1>
                 <div class="accordion" id="accordionExample-html">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne-html">
@@ -84,7 +85,7 @@
                         </h2>
                         <div id="collapseOne-html" class="accordion-collapse collapse" aria-labelledby="headingOne-html" data-bs-parent="#accordionExample-html">
                             <div class="accordion-body">
-                                <p>Es un lenguaje con el que se define el contenido de las páginas web. Básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán una página web, como imágenes, listas, vídeos, etc.</p>
+                                <p>Es un lenguaje con el que se define la estructura jerarquica y el contenido de un archivo de texto, el cual puede ser interpretado por un navegador como página web.</p>
                             </div>
                         </div>
                     </div>
@@ -145,7 +146,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour-html">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-html" aria-expanded="false" aria-controls="collapseFour-html">
-                                ¿Que es HTML5?
+                                HTML5
                             </button>
                         </h2>
                         <div id="collapseFour-html" class="accordion-collapse collapse" aria-labelledby="headingFour-html" data-bs-parent="#accordionExample-html">
@@ -167,11 +168,11 @@
             <div class="container text-center info">
                 <div class="row align-items-center css">
                     <div class="col info-logo">
-                        <img src="img/css_file.png" class="float-start" alt="logo">
+                        <img src="img/css_file.png" class="img-fluid" alt="logo">
                     </div>
                     <div class="col info-texto">
                         <h1>CSS</h1>
-                        <p class="lead">Para agregar colores, fuentes e imagenes</p>
+                        <p class="lead">Para agregar colores, fuentes e imagenes a tu pagina web</p>
                     </div>
                 </div>
             </div>
@@ -183,9 +184,9 @@
                                 ¿Que es CSS?
                             </button>
                         </h2>
-                        <div id="collapseOne-css" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample-css">
+                        <div id="collapseOne-css" class="accordion-collapse collapse" aria-labelledby="headingOne-css" data-bs-parent="#accordionExample-css">
                             <div class="accordion-body">
-                                <p>Es un lenguaje con el podemos darle estilo a los diferentes elementos descritos en un documento HTML</p>
+                                <p>Es un lenguaje de programacion que permite darle estilo, forma, color y posicion a los diferentes elementos descritos en un documento HTML</p>
                             </div>
                         </div>
                     </div>
@@ -198,7 +199,7 @@
                         <div id="collapseTwo-css" class="accordion-collapse collapse" aria-labelledby="headingTwo-css" data-bs-parent="#accordionExample-css">
                             <div class="accordion-body">
                                 <p>
-                                    <h3>Ejemplo</h3>
+                                    <h4>Ejemplo</h4>
                                     body {<br>
                                     background-color: lightblue;<br>
                                     } <br><br>
@@ -212,7 +213,7 @@
                                     } <br>
                                 </p>
                                 <p>
-                                    <h3>Explicacion</h3>
+                                    <h4>Explicacion</h4>
                                     <code>body</code> hace referencia a un elemento tipo tag que sera modificado, en este caso el cuerpo del documento.<br>
                                     <code>background-color</code> indica el color de fondo del elemento, su valor puede ser escrito con palabras, codigo hex o rgb, entre otros<br>
                                     <code>#informacion</code> hace referencia al elemento que tenga como identificador "informacion".<br>
@@ -225,12 +226,97 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree-css">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-css" aria-expanded="false" aria-controls="collapseThree-css">
+                                ¿Como implementar CSS en HTML?
+                            </button>
+                        </h2>
+                        <div id="collapseThree-css" class="accordion-collapse collapse" aria-labelledby="headingThree-css" data-bs-parent="#accordionExample-css">
+                            <div class="accordion-body">
+                                <p>Existen dos maneras para implementar el estilo de CSS en un archivo HTML:</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <h4>Implementar de forma directa</h4>
+                                        &lt;!DOCTYPE html&gt;<br>
+                                        &lt;html&gt;<br>
+                                        &emsp;&lt;head&gt;<br>
+                                        &emsp;&emsp;&lt;style&gt;<br>
+                                        &emsp;&emsp;body {<br>
+                                        &emsp;&emsp;background-color: lightblue;<br>
+                                        &emsp;&emsp;} <br>
+                                        &emsp;&emsp;#informacion {<br>
+                                        &emsp;&emsp;height: 30px;<br>
+                                        &emsp;&emsp;width: auto;<br>
+                                        &emsp;&emsp;} <br>
+                                        &emsp;&emsp;.texto {<br>
+                                        &emsp;&emsp;color: grey;<br>
+                                        &emsp;&emsp;text-align: center;<br>
+                                        &emsp;&emsp;} <br>
+                                        &emsp;&emsp;&lt;/style&gt;<br>
+                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                        &emsp;&lt;/head&gt;<br>
+                                        &emsp;&lt;body&gt;<br>
+                                        &emsp;&emsp;&lt;div&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                        &emsp;&emsp;&lt;/div&gt;<br>
+                                        &emsp;&lt;/body&gt;<br>
+                                        &lt;html&gt;
+                                    </li>
+                                    <li class="list-group-item">
+                                        <h4>Implementar haciendo referencia al archivo .css</h4>
+                                        &lt;!DOCTYPE html&gt;<br>
+                                        &lt;html&gt;<br>
+                                        &emsp;&lt;head&gt;<br>
+                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                        &emsp;&emsp;&lt;link rel="stylesheet" href="estilo.css"&gt;&lt;/link&gt;<br>
+                                        &emsp;&lt;/head&gt;<br>
+                                        &emsp;&lt;body&gt;<br>
+                                        &emsp;&emsp;&lt;div&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                        &emsp;&emsp;&lt;/div&gt;<br>
+                                        &emsp;&lt;/body&gt;<br>
+                                        &lt;html&gt;
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div id="nav-js" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-js-tab" tabindex="0">
+            <div class="container text-center info">
+                <div class="row align-items-center js">
+                    <div class="col info-logo">
+                        <img src="img/js_file.png" class="img-fluid" alt="logo">
+                    </div>
+                    <div class="col info-texto">
+                        <h1>JavaScript</h1>
+                        <p class="lead">Para agregar elementos dinamicos a tu pagina web</p>
+                    </div>
+                </div>
+            </div>
+            <div id="accordion-css" class="container">
+                <div class="accordion" id="accordionExample-js">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne-js">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-js" aria-expanded="false" aria-controls="collapseOne-js">
+                                ¿Que es JS?
+                            </button>
+                        </h2>
+                        <div id="collapseOne-js" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample-js">
+                            <div class="accordion-body">
+                                <p>Es un lenguaje de programacion interpretado que permite crear funciones, variables, procesos y elementos dinamicos que pueden ser vinculados a un archivo html</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     <script src="js/bootstrap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>
