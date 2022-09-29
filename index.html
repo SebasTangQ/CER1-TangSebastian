@@ -19,145 +19,149 @@
         <div id="nav-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
             <div class="container text-center info">
                 <div class="row align-items-center">
-                    <div class="col info-logo">
+                    <div class="col-12 col-md-6 info-logo">
                         <img src="img/informacion_logo.png" class="img-fluid" alt="logo">
                     </div>
-                    <div class="col info-texto">
-                        <h1>WebSite</h1>
+                    <div class="col-12 col-md-6 info-texto text-center">
+                        <h1>WebSite Tutorial</h1>
                         <p class="lead">Elementos Basicos para una Pagina Web</p>
                     </div>
                 </div>
             </div>
             <div id="carousel-home" class="container">
-                <h1 class="display-5 text-center">Elementos Basicos</h1>
-                <div id="carouselElements" class="carousel slide" data-bs-ride="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/html_carrousel.png" class="d-block w-100" alt="html logo">
-                            <div class="carousel-caption d-none d-lg-block html">
-                                <p>Un sistema estructurado que permite etiquetar archivos de texto para conseguir diversos efectos en paginas web.</p>
+                <div class="row align-items-center">
+                    <h1 class="col-12 display-5 text-center">Elementos Basicos</h1>
+                    <div id="carouselElements" class="col-12 carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/html_carrousel.png" class="d-block w-100" alt="html logo">
+                                <div class="carousel-caption d-none d-lg-block html">
+                                    <p>Un sistema estructurado que permite etiquetar archivos de texto para conseguir diversos efectos en paginas web.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/css_carrousel.png" class="d-block w-100" alt="css logo">
+                                <div class="carousel-caption d-none d-lg-block css">
+                                    <p>Un lenguaje de programacion que a través de stylesheets (hojas de estilo) permite controlar el aspecto de documentos HTML y XHTML.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/js_carrousel.png" class="d-block w-100" alt="js logo">
+                                <div class="carousel-caption d-none d-lg-block js">
+                                    <p>Un lenguaje de programacion que permite crear y agregar contenido dinamico a archivos HTML y XHTML.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/css_carrousel.png" class="d-block w-100" alt="css logo">
-                            <div class="carousel-caption d-none d-lg-block css">
-                                <p>Un lenguaje de programacion que a través de stylesheets (hojas de estilo) permite controlar el aspecto de documentos HTML y XHTML.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/js_carrousel.png" class="d-block w-100" alt="js logo">
-                            <div class="carousel-caption d-none d-lg-block js">
-                                <p>Un lenguaje de programacion que permite crear y agregar contenido dinamico a archivos HTML y XHTML.</p>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselElements" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselElements" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselElements" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselElements" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
         <div id="nav-html" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-html-tab" tabindex="0">
             <div class="container text-center info">
                 <div class="row align-items-center html">
-                    <div class="col info-logo">
+                    <div class="col-12 col-md-6 info-logo">
                         <img src="img/html_file.png" class="img-fluid" alt="logo">
                     </div>
-                    <div class="col info-texto">
+                    <div class="col-12 col-md-6 info-texto text-center">
                         <h1>HTML</h1>
                         <p class="lead">Para darle estructura a tu pagina web</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-html" class="container">
-                <h1 class="display-5 text-center">Informacion Inicial</h1>
-                <div class="accordion" id="accordionExample-html">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne-html">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-html" aria-expanded="false" aria-controls="collapseOne-html">
-                                ¿Que es HTML?
-                            </button>
-                        </h2>
-                        <div id="collapseOne-html" class="accordion-collapse collapse" aria-labelledby="headingOne-html" data-bs-parent="#accordionExample-html">
-                            <div class="accordion-body">
-                                <p>Es un lenguaje con el que se define la estructura jerarquica y el contenido de un archivo de texto, el cual puede ser interpretado por un navegador como página web.</p>
+                <div class="row align-items-center">
+                    <h1 class="col-12 display-5 text-center">Informacion Inicial</h1>
+                    <div class="col-12 accordion" id="accordionExample-html">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne-html">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-html" aria-expanded="false" aria-controls="collapseOne-html">
+                                    ¿Que es HTML?
+                                </button>
+                            </h2>
+                            <div id="collapseOne-html" class="accordion-collapse collapse" aria-labelledby="headingOne-html" data-bs-parent="#accordionExample-html">
+                                <div class="accordion-body">
+                                    <p>Es un lenguaje con el que se define la estructura jerarquica y el contenido de un archivo de texto, el cual puede ser interpretado por un navegador como página web.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo-html">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-html" aria-expanded="false" aria-controls="collapseTwo-html">
-                                Estructura Basica de HTML
-                            </button>
-                        </h2>
-                        <div id="collapseTwo-html" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample-html">
-                            <div class="accordion-body">
-                                <p>
-                                    <h4>Ejemplo</h4>
-                                    &lt;!DOCTYPE html&gt;<br>
-                                    &lt;html&gt;<br>
-                                    &emsp;&lt;head&gt;<br>
-                                    &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
-                                    &emsp;&lt;/head&gt;<br>
-                                    &emsp;&lt;body&gt;<br>
-                                    &emsp;&emsp;&lt;div&gt;<br>
-                                    &emsp;&emsp;&emsp;&lt;h1&gt;Primer Encabezado&lt;/h1&gt;<br>
-                                    &emsp;&emsp;&emsp;&lt;p&gt;Primer parrafo.&lt;/p&gt;<br>
-                                    &emsp;&emsp;&lt;/div&gt;<br>
-                                    &emsp;&lt;/body&gt;<br>
-                                    &lt;html&gt;
-                                </p>
-                                <p>
-                                    <h4>Explicacion</h4>
-                                    <code>&lt;!DOCTYPE html&gt;</code> Este elemento define el tipo de lenguaje del documento, en este caso html5.<br>
-                                    <code>&lt;html&gt;</code> Este elemento define la raiz del documento.<br>
-                                    <code>&lt;head&gt;</code> Este elemento define el contenedor de metadatos, es decir titulos, enlaces, entre otros.<br>
-                                    <code>&lt;title&gt;</code> Este elemento define el titulo de la pagina web que se muestra en la pestaña del navegador.<br>
-                                    <code>&lt;body&gt;</code> Este elemento define el cuerpo del documento, es decir el contenedor del resto de elementos, encabezados, parrafos, imagenes, hipervinculos, entre otros.<br>
-                                    <code>&lt;div&gt;</code> Este elemento define un contenedor, que es un subespacio dentro del cuerpo del documento<br>
-                                    <code>&lt;h1&gt;</code> Este elemento define un encabezado, existen hasta 6 tamaños<br>
-                                    <code>&lt;p&gt;</code> Este elemento define un parrafo<br>
-                                </p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo-html">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-html" aria-expanded="false" aria-controls="collapseTwo-html">
+                                    Estructura Basica de HTML
+                                </button>
+                            </h2>
+                            <div id="collapseTwo-html" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample-html">
+                                <div class="accordion-body">
+                                    <p>
+                                        <h4>Ejemplo</h4>
+                                        &lt;!DOCTYPE html&gt;<br>
+                                        &lt;html&gt;<br>
+                                        &emsp;&lt;head&gt;<br>
+                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                        &emsp;&lt;/head&gt;<br>
+                                        &emsp;&lt;body&gt;<br>
+                                        &emsp;&emsp;&lt;div&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;h1&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;p&gt;Primer parrafo.&lt;/p&gt;<br>
+                                        &emsp;&emsp;&lt;/div&gt;<br>
+                                        &emsp;&lt;/body&gt;<br>
+                                        &lt;html&gt;
+                                    </p>
+                                    <p>
+                                        <h4>Explicacion</h4>
+                                        <code>&lt;!DOCTYPE html&gt;</code> Este elemento define el tipo de lenguaje del documento, en este caso html5.<br>
+                                        <code>&lt;html&gt;</code> Este elemento define la raiz del documento.<br>
+                                        <code>&lt;head&gt;</code> Este elemento define el contenedor de metadatos, es decir titulos, enlaces, entre otros.<br>
+                                        <code>&lt;title&gt;</code> Este elemento define el titulo de la pagina web que se muestra en la pestaña del navegador.<br>
+                                        <code>&lt;body&gt;</code> Este elemento define el cuerpo del documento, es decir el contenedor del resto de elementos, encabezados, parrafos, imagenes, hipervinculos, entre otros.<br>
+                                        <code>&lt;div&gt;</code> Este elemento define un contenedor, que es un subespacio dentro del cuerpo del documento<br>
+                                        <code>&lt;h1&gt;</code> Este elemento define un encabezado, existen hasta 6 tamaños<br>
+                                        <code>&lt;p&gt;</code> Este elemento define un parrafo<br>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree-html">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-html" aria-expanded="false" aria-controls="collapseThree-html">
-                                Etiquetas, Identificadores y Clases 
-                            </button>
-                        </h2>
-                        <div id="collapseThree-html" class="accordion-collapse collapse" aria-labelledby="headingThree-html" data-bs-parent="#accordionExample-html">
-                            <div class="accordion-body">
-                                <p>Son formas de clasificar los distintos elementos dentro del cuerpo de un documento donde:</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Etiqueta o Nametag: Hace referencia al constructor del elemento <code>&lt;body&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code></li>
-                                    <li class="list-group-item">Identificador o ID: Hace referencia a un identificador unico de un elemento, se declara dentro del constructor <code>&lt;div id="informacion"&gt;</code></li>
-                                    <li class="list-group-item">Clase o Class: Hace referencia a una clase de la que uno o mas elementos son pertenecientes, se declara dentro del constructor <code>&lt;p class="texto"&gt;</code></li>
-                                </ul>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree-html">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-html" aria-expanded="false" aria-controls="collapseThree-html">
+                                    Etiquetas, Identificadores y Clases 
+                                </button>
+                            </h2>
+                            <div id="collapseThree-html" class="accordion-collapse collapse" aria-labelledby="headingThree-html" data-bs-parent="#accordionExample-html">
+                                <div class="accordion-body">
+                                    <p>Son formas de clasificar los distintos elementos dentro del cuerpo de un documento donde:</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Etiqueta o Nametag: Hace referencia al constructor del elemento <code>&lt;body&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code></li>
+                                        <li class="list-group-item">Identificador o ID: Hace referencia a un identificador unico de un elemento, se declara dentro del constructor <code>&lt;div id="informacion"&gt;</code></li>
+                                        <li class="list-group-item">Clase o Class: Hace referencia a una clase de la que uno o mas elementos son pertenecientes, se declara dentro del constructor <code>&lt;p class="texto"&gt;</code></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour-html">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-html" aria-expanded="false" aria-controls="collapseFour-html">
-                                HTML5
-                            </button>
-                        </h2>
-                        <div id="collapseFour-html" class="accordion-collapse collapse" aria-labelledby="headingFour-html" data-bs-parent="#accordionExample-html">
-                            <div class="accordion-body">
-                                <p>Es la quinta versión de HTML que presenta las siguientes características:</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Compatibilidad con elementos graficos vectoriales como SVG o Canvas</li>
-                                    <li class="list-group-item">Compatibilidad con dispositivos moviles</li>
-                                    <li class="list-group-item">Permite integrar elementos de audio y video en paginas web</li>
-                                    <li class="list-group-item">Contenedores propios como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code> </li>
-                                </ul>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour-html">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-html" aria-expanded="false" aria-controls="collapseFour-html">
+                                    HTML5
+                                </button>
+                            </h2>
+                            <div id="collapseFour-html" class="accordion-collapse collapse" aria-labelledby="headingFour-html" data-bs-parent="#accordionExample-html">
+                                <div class="accordion-body">
+                                    <p>Es la quinta versión de HTML que presenta las siguientes características:</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Compatibilidad con elementos graficos vectoriales como SVG o Canvas</li>
+                                        <li class="list-group-item">Compatibilidad con dispositivos moviles</li>
+                                        <li class="list-group-item">Permite integrar elementos de audio y video en paginas web</li>
+                                        <li class="list-group-item">Contenedores propios como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code> </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,120 +171,123 @@
         <div id="nav-css" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-css-tab" tabindex="0">
             <div class="container text-center info">
                 <div class="row align-items-center css">
-                    <div class="col info-logo">
+                    <div class="col-12 col-md-6 info-logo">
                         <img src="img/css_file.png" class="img-fluid" alt="logo">
                     </div>
-                    <div class="col info-texto">
+                    <div class="col-12 col-md-6 info-texto text-center">
                         <h1>CSS</h1>
                         <p class="lead">Para agregar colores, fuentes e imagenes a tu pagina web</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-css" class="container">
-                <div class="accordion" id="accordionExample-css">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne-css">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-css" aria-expanded="false" aria-controls="collapseOne-css">
-                                ¿Que es CSS?
-                            </button>
-                        </h2>
-                        <div id="collapseOne-css" class="accordion-collapse collapse" aria-labelledby="headingOne-css" data-bs-parent="#accordionExample-css">
-                            <div class="accordion-body">
-                                <p>Es un lenguaje de programacion que permite darle estilo, forma, color y posicion a los diferentes elementos descritos en un documento HTML</p>
+                <div class="row align-items-center">
+                    <h1 class="col-12 display-5 text-center">Informacion Inicial</h1>
+                    <div class="col-12 accordion" id="accordionExample-css">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne-css">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-css" aria-expanded="false" aria-controls="collapseOne-css">
+                                    ¿Que es CSS?
+                                </button>
+                            </h2>
+                            <div id="collapseOne-css" class="accordion-collapse collapse" aria-labelledby="headingOne-css" data-bs-parent="#accordionExample-css">
+                                <div class="accordion-body">
+                                    <p>Es un lenguaje de programacion que permite darle estilo, forma, color y posicion a los diferentes elementos descritos en un documento HTML</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo-css">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-css" aria-expanded="false" aria-controls="collapseTwo-css">
-                                Estructura Basica de CSS
-                            </button>
-                        </h2>
-                        <div id="collapseTwo-css" class="accordion-collapse collapse" aria-labelledby="headingTwo-css" data-bs-parent="#accordionExample-css">
-                            <div class="accordion-body">
-                                <p>
-                                    <h4>Ejemplo</h4>
-                                    body {<br>
-                                    background-color: lightblue;<br>
-                                    } <br><br>
-                                    #informacion {<br>
-                                    height: 30px;<br>
-                                    width: auto;<br>
-                                    } <br><br>
-                                    .texto {<br>
-                                    color: grey;<br>
-                                    text-align: center;<br>
-                                    } <br>
-                                </p>
-                                <p>
-                                    <h4>Explicacion</h4>
-                                    <code>body</code> hace referencia a un elemento tipo tag que sera modificado, en este caso el cuerpo del documento.<br>
-                                    <code>background-color</code> indica el color de fondo del elemento, su valor puede ser escrito con palabras, codigo hex o rgb, entre otros<br>
-                                    <code>#informacion</code> hace referencia al elemento que tenga como identificador "informacion".<br>
-                                    <code>height</code> indica la altura del elemento, dicho valor se encuentra expresado en pixeles<br>
-                                    <code>width</code> indica la anchura del elemento, el valor se define como automatico, por lo general el 100% del ancho de la ventana<br>
-                                    <code>.texto</code> hace referencia a todos los elementos que contengan como clase "texto".<br>
-                                    <code>color</code> indica el color del elemento, acepta el mismo formato que el atributo background-color<br>
-                                    <code>text-align</code> indica la alineacion del texto del elemento, en este caso centrado, aunque podria ser alineado a la izquierda (left) o derecha (right) <br>
-                                </p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo-css">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-css" aria-expanded="false" aria-controls="collapseTwo-css">
+                                    Estructura Basica de CSS
+                                </button>
+                            </h2>
+                            <div id="collapseTwo-css" class="accordion-collapse collapse" aria-labelledby="headingTwo-css" data-bs-parent="#accordionExample-css">
+                                <div class="accordion-body">
+                                    <p>
+                                        <h4>Ejemplo</h4>
+                                        body {<br>
+                                        background-color: lightblue;<br>
+                                        } <br><br>
+                                        #informacion {<br>
+                                        height: 30px;<br>
+                                        width: auto;<br>
+                                        } <br><br>
+                                        .texto {<br>
+                                        color: grey;<br>
+                                        text-align: center;<br>
+                                        } <br>
+                                    </p>
+                                    <p>
+                                        <h4>Explicacion</h4>
+                                        <code>body</code> hace referencia a un elemento tipo tag que sera modificado, en este caso el cuerpo del documento.<br>
+                                        <code>background-color</code> indica el color de fondo del elemento, su valor puede ser escrito con palabras, codigo hex o rgb, entre otros<br>
+                                        <code>#informacion</code> hace referencia al elemento que tenga como identificador "informacion".<br>
+                                        <code>height</code> indica la altura del elemento, dicho valor se encuentra expresado en pixeles<br>
+                                        <code>width</code> indica la anchura del elemento, el valor se define como automatico, por lo general el 100% del ancho de la ventana<br>
+                                        <code>.texto</code> hace referencia a todos los elementos que contengan como clase "texto".<br>
+                                        <code>color</code> indica el color del elemento, acepta el mismo formato que el atributo background-color<br>
+                                        <code>text-align</code> indica la alineacion del texto del elemento, en este caso centrado, aunque podria ser alineado a la izquierda (left) o derecha (right) <br>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree-css">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-css" aria-expanded="false" aria-controls="collapseThree-css">
-                                ¿Como implementar CSS en HTML?
-                            </button>
-                        </h2>
-                        <div id="collapseThree-css" class="accordion-collapse collapse" aria-labelledby="headingThree-css" data-bs-parent="#accordionExample-css">
-                            <div class="accordion-body">
-                                <p>Existen dos maneras para implementar el estilo de CSS en un archivo HTML:</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">
-                                        <h4>Implementar de forma directa</h4>
-                                        &lt;!DOCTYPE html&gt;<br>
-                                        &lt;html&gt;<br>
-                                        &emsp;&lt;head&gt;<br>
-                                        &emsp;&emsp;&lt;style&gt;<br>
-                                        &emsp;&emsp;body {<br>
-                                        &emsp;&emsp;background-color: lightblue;<br>
-                                        &emsp;&emsp;} <br>
-                                        &emsp;&emsp;#informacion {<br>
-                                        &emsp;&emsp;height: 30px;<br>
-                                        &emsp;&emsp;width: auto;<br>
-                                        &emsp;&emsp;} <br>
-                                        &emsp;&emsp;.texto {<br>
-                                        &emsp;&emsp;color: grey;<br>
-                                        &emsp;&emsp;text-align: center;<br>
-                                        &emsp;&emsp;} <br>
-                                        &emsp;&emsp;&lt;/style&gt;<br>
-                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
-                                        &emsp;&lt;/head&gt;<br>
-                                        &emsp;&lt;body&gt;<br>
-                                        &emsp;&emsp;&lt;div&gt;<br>
-                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
-                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
-                                        &emsp;&emsp;&lt;/div&gt;<br>
-                                        &emsp;&lt;/body&gt;<br>
-                                        &lt;html&gt;
-                                    </li>
-                                    <li class="list-group-item">
-                                        <h4>Implementar haciendo referencia al archivo .css</h4>
-                                        &lt;!DOCTYPE html&gt;<br>
-                                        &lt;html&gt;<br>
-                                        &emsp;&lt;head&gt;<br>
-                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
-                                        &emsp;&emsp;&lt;link rel="stylesheet" href="estilo.css"&gt;&lt;/link&gt;<br>
-                                        &emsp;&lt;/head&gt;<br>
-                                        &emsp;&lt;body&gt;<br>
-                                        &emsp;&emsp;&lt;div&gt;<br>
-                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
-                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
-                                        &emsp;&emsp;&lt;/div&gt;<br>
-                                        &emsp;&lt;/body&gt;<br>
-                                        &lt;html&gt;
-                                    </li>
-                                </ul>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree-css">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-css" aria-expanded="false" aria-controls="collapseThree-css">
+                                    ¿Como implementar CSS en HTML?
+                                </button>
+                            </h2>
+                            <div id="collapseThree-css" class="accordion-collapse collapse" aria-labelledby="headingThree-css" data-bs-parent="#accordionExample-css">
+                                <div class="accordion-body">
+                                    <p>Existen dos maneras para implementar el estilo de CSS en un archivo HTML:</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <h4>Implementar de forma directa</h4>
+                                            &lt;!DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &emsp;&lt;head&gt;<br>
+                                            &emsp;&emsp;&lt;style&gt;<br>
+                                            &emsp;&emsp;body {<br>
+                                            &emsp;&emsp;background-color: lightblue;<br>
+                                            &emsp;&emsp;} <br>
+                                            &emsp;&emsp;#informacion {<br>
+                                            &emsp;&emsp;height: 30px;<br>
+                                            &emsp;&emsp;width: auto;<br>
+                                            &emsp;&emsp;} <br>
+                                            &emsp;&emsp;.texto {<br>
+                                            &emsp;&emsp;color: grey;<br>
+                                            &emsp;&emsp;text-align: center;<br>
+                                            &emsp;&emsp;} <br>
+                                            &emsp;&emsp;&lt;/style&gt;<br>
+                                            &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                            &emsp;&lt;/head&gt;<br>
+                                            &emsp;&lt;body&gt;<br>
+                                            &emsp;&emsp;&lt;div&gt;<br>
+                                            &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                            &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                            &emsp;&emsp;&lt;/div&gt;<br>
+                                            &emsp;&lt;/body&gt;<br>
+                                            &lt;html&gt;
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h4>Implementar haciendo referencia al archivo .css</h4>
+                                            &lt;!DOCTYPE html&gt;<br>
+                                            &lt;html&gt;<br>
+                                            &emsp;&lt;head&gt;<br>
+                                            &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                            &emsp;&emsp;&lt;link rel="stylesheet" href="estilo.css"&gt;&lt;/link&gt;<br>
+                                            &emsp;&lt;/head&gt;<br>
+                                            &emsp;&lt;body&gt;<br>
+                                            &emsp;&emsp;&lt;div&gt;<br>
+                                            &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                            &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                            &emsp;&emsp;&lt;/div&gt;<br>
+                                            &emsp;&lt;/body&gt;<br>
+                                            &lt;html&gt;
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -290,26 +297,29 @@
         <div id="nav-js" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-js-tab" tabindex="0">
             <div class="container text-center info">
                 <div class="row align-items-center js">
-                    <div class="col info-logo">
+                    <div class="col-12 col-md-6 info-logo">
                         <img src="img/js_file.png" class="img-fluid" alt="logo">
                     </div>
-                    <div class="col info-texto">
+                    <div class="col-12 col-md-6 text-center info-texto">
                         <h1>JavaScript</h1>
                         <p class="lead">Para agregar elementos dinamicos a tu pagina web</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-css" class="container">
-                <div class="accordion" id="accordionExample-js">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne-js">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-js" aria-expanded="false" aria-controls="collapseOne-js">
-                                ¿Que es JS?
-                            </button>
-                        </h2>
-                        <div id="collapseOne-js" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample-js">
-                            <div class="accordion-body">
-                                <p>Es un lenguaje de programacion interpretado que permite crear funciones, variables, procesos y elementos dinamicos que pueden ser vinculados a un archivo html</p>
+                <div class="row align-items-center">
+                    <h1 class="col-12 display-5 text-center">Informacion Inicial</h1>
+                    <div class="col-12 accordion" id="accordionExample-js">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne-js">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-js" aria-expanded="false" aria-controls="collapseOne-js">
+                                    ¿Que es JS?
+                                </button>
+                            </h2>
+                            <div id="collapseOne-js" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample-js">
+                                <div class="accordion-body">
+                                    <p>Es un lenguaje de programacion interpretado que permite crear funciones, variables, procesos y elementos dinamicos que pueden ser vinculados a un archivo html</p>
+                                </div>
                             </div>
                         </div>
                     </div>
