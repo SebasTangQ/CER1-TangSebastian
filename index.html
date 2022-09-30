@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -208,11 +209,11 @@
                                         <h4>Ejemplo</h4>
                                         body {<br>
                                         background-color: lightblue;<br>
-                                        } <br><br>
+                                        } <br>
                                         #informacion {<br>
                                         height: 30px;<br>
                                         width: auto;<br>
-                                        } <br><br>
+                                        } <br>
                                         .texto {<br>
                                         color: grey;<br>
                                         text-align: center;<br>
@@ -240,53 +241,28 @@
                             </h2>
                             <div id="collapseThree-css" class="accordion-collapse collapse" aria-labelledby="headingThree-css" data-bs-parent="#accordionExample-css">
                                 <div class="accordion-body">
-                                    <p>Existen dos maneras para implementar el estilo de CSS en un archivo HTML:</p>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">
-                                            <h4>Implementar de forma directa</h4>
-                                            &lt;!DOCTYPE html&gt;<br>
-                                            &lt;html&gt;<br>
-                                            &emsp;&lt;head&gt;<br>
-                                            &emsp;&emsp;&lt;style&gt;<br>
-                                            &emsp;&emsp;body {<br>
-                                            &emsp;&emsp;background-color: lightblue;<br>
-                                            &emsp;&emsp;} <br>
-                                            &emsp;&emsp;#informacion {<br>
-                                            &emsp;&emsp;height: 30px;<br>
-                                            &emsp;&emsp;width: auto;<br>
-                                            &emsp;&emsp;} <br>
-                                            &emsp;&emsp;.texto {<br>
-                                            &emsp;&emsp;color: grey;<br>
-                                            &emsp;&emsp;text-align: center;<br>
-                                            &emsp;&emsp;} <br>
-                                            &emsp;&emsp;&lt;/style&gt;<br>
-                                            &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
-                                            &emsp;&lt;/head&gt;<br>
-                                            &emsp;&lt;body&gt;<br>
-                                            &emsp;&emsp;&lt;div&gt;<br>
-                                            &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
-                                            &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
-                                            &emsp;&emsp;&lt;/div&gt;<br>
-                                            &emsp;&lt;/body&gt;<br>
-                                            &lt;html&gt;
-                                        </li>
-                                        <li class="list-group-item">
-                                            <h4>Implementar haciendo referencia al archivo .css</h4>
-                                            &lt;!DOCTYPE html&gt;<br>
-                                            &lt;html&gt;<br>
-                                            &emsp;&lt;head&gt;<br>
-                                            &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
-                                            &emsp;&emsp;&lt;link rel="stylesheet" href="estilo.css"&gt;&lt;/link&gt;<br>
-                                            &emsp;&lt;/head&gt;<br>
-                                            &emsp;&lt;body&gt;<br>
-                                            &emsp;&emsp;&lt;div&gt;<br>
-                                            &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
-                                            &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
-                                            &emsp;&emsp;&lt;/div&gt;<br>
-                                            &emsp;&lt;/body&gt;<br>
-                                            &lt;html&gt;
-                                        </li>
-                                    </ul>
+                                    <p>Para implementar un archivo tipo .css en un documento HTML se enlaza a través de la tag <code>&lt;link&gt;</code> en el contenedor <code>&lt;head&gt;</code>:</p>
+                                    <p>    
+                                        <h4>Ejemplo</h4>
+                                        &lt;!DOCTYPE html&gt;<br>
+                                        &lt;html&gt;<br>
+                                        &emsp;&lt;head&gt;<br>
+                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                        &emsp;&emsp;&lt;link rel="stylesheet" href="css/estilo.css"&gt;&lt;/link&gt;<br>
+                                        &emsp;&lt;/head&gt;<br>
+                                        &emsp;&lt;body&gt;<br>
+                                        &emsp;&emsp;&lt;div&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                        &emsp;&emsp;&lt;/div&gt;<br>
+                                        &emsp;&lt;/body&gt;<br>
+                                        &lt;html&gt;
+                                    </p>
+                                    <p>
+                                        <h4>Explicacion</h4>
+                                        <code>&lt;link&gt;</code> Este elemento define una relacion entre el documento HTML y un recurso externo<br>
+                                        <code>rel</code> indica el tipo de relacion entre el documento HTML y el recurso externo, este caso <code>stylesheet</code> es para indicar una relacion por hoja de estilo<br>
+                                        <code>href</code> indica la ruta de ubicacion del recurso externo, en este caso la ruta es <code>css/estilo.css</code><br>
                                 </div>
                             </div>
                         </div>
@@ -319,6 +295,38 @@
                             <div id="collapseOne-js" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample-js">
                                 <div class="accordion-body">
                                     <p>Es un lenguaje de programacion interpretado que permite crear funciones, variables, procesos y elementos dinamicos que pueden ser vinculados a un archivo html</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree-css">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-css" aria-expanded="false" aria-controls="collapseThree-css">
+                                    ¿Como implementar JS en HTML?
+                                </button>
+                            </h2>
+                            <div id="collapseThree-css" class="accordion-collapse collapse" aria-labelledby="headingThree-css" data-bs-parent="#accordionExample-css">
+                                <div class="accordion-body">
+                                    <p>
+                                        <p>Para implementar un archivo tipo .js en un documento HTML se enlaza a través de la tag <code>&lt;script&gt;</code> al final del contenedor <code>&lt;body&gt;</code>:</p>
+                                        <h4>Ejemplo</h4>
+                                        &lt;!DOCTYPE html&gt;<br>
+                                        &lt;html&gt;<br>
+                                        &emsp;&lt;head&gt;<br>
+                                        &emsp;&emsp;&lt;title&gt;Titulo&lt;/title&gt;<br>
+                                        &emsp;&lt;/head&gt;<br>
+                                        &emsp;&lt;body&gt;<br>
+                                        &emsp;&emsp;&lt;div&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;h1 class="texto"&gt;Primer Encabezado&lt;/h1&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;p id="informacion"&gt;Primer parrafo.&lt;/p&gt;<br>
+                                        &emsp;&emsp;&emsp;&lt;img id="logotipo" src="logo.png"&gt;<br>
+                                        &emsp;&emsp;&lt;/div&gt;<br>
+                                        &emsp;&lt;/body&gt;<br>
+                                        &lt;html&gt;
+                                    </p>
+                                    <p>
+                                        <h4>Explicacion</h4>
+                                        
+                                    </p>
                                 </div>
                             </div>
                         </div>
